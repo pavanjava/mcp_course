@@ -1,0 +1,11 @@
+[project]
+name = "mcp-registry"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=3.4.7",
+    "mlflow>=3.15.1",
+    "psycopg2>=2.9.12",
+    "psycopg2-binary>=2.9.12",
+    "python-dotenv>=1.2.2",
+]
